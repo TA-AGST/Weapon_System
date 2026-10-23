@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 159d1d58a3da50a4383b5d4aa031c26c, type: 3}
+  m_Name: SMG
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  displayName: SMG
+  damage: 20
+  fireRate: 820
+  canAutoFire: 1
+  autoByDefault: 1
+  pellets: 1
+  pelletSpread: 0
+  muzzleVelocity: 400
+  maxRange: 250
+  impactForce: 4
+  falloffStart: 12
+  falloffEnd: 55
+  minDamageFactor: 0.4
+  magazineSize: 30
+  reserveAmmo: 120
+  reloadTime: 2
+  emptyReloadTime: 2.6
+  hipSpread: 2.2
+  adsSpread: 0.8
+  movePenalty: 1.8
+  jumpPenalty: 3.5
+  crouchMultiplier: 0.7
+  bloomPerShot: 0.35
+  maxBloom: 3.5
+  bloomRecovery: 5
+  recoilUp: 0.85
+  recoilSide: 0.35
+  recoilRecovery: 9
+  optic: 1
+  adsFovScale: 0.8
+  zoomLevels:
+  - 1
+  adsTime: 0.14
+  adsMoveSpeed: 0.6
+  defaultZeroIndex: 0

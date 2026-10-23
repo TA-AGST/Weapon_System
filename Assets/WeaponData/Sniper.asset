@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 159d1d58a3da50a4383b5d4aa031c26c, type: 3}
+  m_Name: Sniper
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  displayName: Sniper
+  damage: 100
+  fireRate: 42
+  canAutoFire: 0
+  autoByDefault: 0
+  pellets: 1
+  pelletSpread: 0
+  muzzleVelocity: 920
+  maxRange: 1000
+  impactForce: 14
+  falloffStart: 200
+  falloffEnd: 800
+  minDamageFactor: 0.85
+  magazineSize: 5
+  reserveAmmo: 25
+  reloadTime: 3.6
+  emptyReloadTime: 4.2
+  hipSpread: 4.5
+  adsSpread: 0.02
+  movePenalty: 4
+  jumpPenalty: 6
+  crouchMultiplier: 0.6
+  bloomPerShot: 2
+  maxBloom: 4
+  bloomRecovery: 1.5
+  recoilUp: 3.2
+  recoilSide: 0.35
+  recoilRecovery: 3
+  optic: 3
+  adsFovScale: 1
+  zoomLevels:
+  - 4
+  - 6
+  - 8
+  - 10
+  - 12
+  adsTime: 0.28
+  adsMoveSpeed: 0.35
+  defaultZeroIndex: 1
